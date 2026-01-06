@@ -10,12 +10,16 @@ interface OfferCardProps {
   eligibilityStatus: "eligible" | "maybe" | "check";
 }
 
-const categoryBadgeVariant: Record<OfferCategory, "cloud" | "ai" | "developer" | "design" | "learning" | "productivity"> = {
+const categoryBadgeVariant: Record<OfferCategory, "cloud" | "learning" | "travel" | "government" | "research" | "hardware" | "career" | "developer" | "design" | "productivity"> = {
   cloud: "cloud",
-  ai: "ai",
+  learning: "learning",
+  travel: "travel",
+  government: "government",
+  research: "research",
+  hardware: "hardware",
+  career: "career",
   developer: "developer",
   design: "design",
-  learning: "learning",
   productivity: "productivity",
 };
 
