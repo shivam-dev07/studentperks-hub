@@ -15,7 +15,7 @@ interface OfferFiltersProps {
   onClearFilters: () => void;
 }
 
-const categories: OfferCategory[] = ["cloud", "ai", "developer", "design", "learning", "productivity"];
+const categories: OfferCategory[] = ["cloud", "learning", "travel", "government", "research", "hardware", "career", "developer", "design", "productivity"];
 
 export function OfferFilters({
   searchQuery,
